@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#loader {
+    width: 100%;
+    height: 100vh;
+    background: #fff url(img/Loader.gif) no-repeat center;
+    background-size: 250px;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar {
+    background: #ee618d;
+}
+.promotion {
+    background: #ee618d;
+}
+.about {
+    background: #fafafc;
+}
+.portfolio {
+    background: #fafafc;
+}
+.menu {
+    background: #fafafc;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+@media (min-width: 1100px) {
+    .carousel-caption h1 {
+        font-size: 60px;
+    }
+    .carousel-caption p {
+        font-size: 30px;
+    }
+}
